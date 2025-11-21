@@ -1,19 +1,43 @@
-# Functions in Python: Modulo Calculator
+## Function in python: Modulo calculator
 
-## 🎯 Aim
-To write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator.
+##  Aim
+To write a Python program that defines a function to accept two values and return their modulo value.
 
-## 🧠 Algorithm
-1. Define a function called `result` that takes two arguments `a` and `b`.
-2. Inside the function, compute the modulo using `a % b`.
-3. Print the result of the modulo operation.
-4. Get two integer inputs from the user.
-5. Call the `result` function with the user-provided values.
+##  Algorithm
+1.Start the program.
 
-## 🧾 Program
+2.Define a function that takes two parameters a and b.
 
-Add code Here
+3.Inside the function, compute the modulo using a % b.
+
+4.Return the result.
+
+5.In the main program, read two input values from the user.
+
+6.Call the function with the given inputs.
+
+7.Display the modulo result.
+
+8.End the program.
+
+##  Program
+```
+def result(a, b):
+    d = a % b
+    print("modulo is", d)
+
+a = int(input())
+b = int(input())
+result(a, b)
+
+
+```
 
 ## Output
+<img width="445" height="147" alt="image" src="https://github.com/user-attachments/assets/06ba86cb-6811-4cde-bc3d-8b3152038888" />
+
+
+
 
 ## Result
+The program successfully reads an upper limit from the user and prints all the prime numbers within the given range.
