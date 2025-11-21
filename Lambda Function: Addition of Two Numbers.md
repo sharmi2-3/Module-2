@@ -1,16 +1,26 @@
-# Lambda Function in Python: Addition of Two Numbers
+# Lambda Function in Python: multiplication of two numbers of Two Numbers
 
-## 🎯 Aim
-To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
+##  Aim
+To write a Python program that defines a **lambda function** which takes three arguments `a` ,`b`,`c` and returns their multiplication.
 
-## 🧠 Algorithm
+##  Algorithm
 1. Get two integer inputs from the user.
-2. Use a **lambda function** to define a function `f` that returns `a + b`.
+2. Use a **lambda function** to define a function `result` that returns `a * b`*`c`.
 3. Call the function with the user inputs and print the result.
 
-## 🧾 Program
-Add code here
+##  Program
+```
+f=lambda a,b,c:a*b*c
+a=int(input())
+b=int(input())
+c=int(input())
+result=f(a,b,c)
+print(result)
+```
 
 ## Output
+<img width="443" height="174" alt="image" src="https://github.com/user-attachments/assets/8c323aaa-e9e2-4f9a-8951-3c4c9db70a81" />
+
 
 ## Result
+Thus,the Python program that defines a lambda function which takes three arguments a , b,c and returns their multiplecation is created successfully.
